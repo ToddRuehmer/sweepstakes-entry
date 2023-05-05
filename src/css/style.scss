@@ -1,0 +1,40 @@
+@import 'theme/index';
+
+body {
+    background: $primary;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'FFDIN', Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+	text-align: center;
+	font-size: 4vw;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+    font-family: 'FFDIN-bold';
+}
+
+.hide {
+    display: none;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+input:autofill,
+input:autofill:hover, 
+input:autofill:focus {
+    border: none !important;
+    background: rgba(31, 31, 60, 0.5) !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    color: white !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+}

@@ -1,0 +1,17 @@
+.logo {
+	background-size: cover;
+	right: 2em;
+	position: fixed;
+	top: 2em;
+	width: 5em;
+	z-index: 1;
+}
+.background {
+	background: url('/assets/img/img-hoop.png') no-repeat center;
+	background-size: cover;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
